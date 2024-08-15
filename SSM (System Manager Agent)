@@ -1,0 +1,31 @@
+Key Features
+Resource Groups: Organize and manage your AWS resources using resource groups, which are collections of resources that share one or more tags.
+
+Run Command: Execute commands on your EC2 instances without logging in or using SSH. This is particularly useful for automating administration and configuration tasks.
+
+Automation: Automate common tasks and workflows, such as creating snapshots, rebooting instances, or applying patches, with pre-defined or custom automation runbooks.
+
+Session Manager: Provides a secure and auditable way to access and manage your EC2 instances without the need for SSH or bastion hosts.
+
+Parameter Store: Securely store and retrieve configuration data and secrets such as database passwords, API keys, or any other application configuration information.
+
+Patch Manager: Automate the process of patching your EC2 instances with the latest security and other critical updates.
+
+Inventory: Collect and query metadata about your instances and the software installed on them.
+
+State Manager: Define and maintain consistent configuration on your EC2 instances.
+
+Compliance: Track and ensure the compliance of your instances against specific configurations.
+
+Benefits
+Centralized Management: Provides a single pane of glass to view and manage your AWS resources.
+Improved Security: Facilitates secure access and management of resources without exposing credentials or requiring bastion hosts.
+Automation and Scalability: Helps automate routine tasks and manage resources at scale, reducing manual intervention and potential errors.
+Cost-Effective: By automating repetitive tasks and optimizing resource usage, Systems Manager can help lower operational costs.
+
+WS Systems Manager offers both a user interface (UI) and API access, providing flexibility in how you manage and automate your AWS infrastructure:
+
+User Interface (UI)
+AWS Management Console: You can use the AWS Management Console to interact with Systems Manager. This web-based interface allows you to manage resources, create and run automation scripts, view inventory, and set up compliance rules. It is a convenient option for those who prefer a graphical interface.
+Code and APIs
+AWS SDKs and CLI: AWS provides SDKs for various programming languages (like Python, Java, .NET, Node.js, etc.) and a Command Line Interface (CLI). These tools allow you to write scripts or programs to interact with Systems Manager, enabling you to automate tasks programmatically. This is useful for integrating Systems Manager functionality into your applications or custom workflows.
