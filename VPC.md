@@ -31,3 +31,13 @@ Public DNS Hostname: If the instance has a public IP, its public DNS hostname mi
 Summary
 DNS Resolution in a VPC handles translating domain names to IP addresses, allowing instances to find and communicate with each other or with external resources.
 DNS Hostname is the domain name assigned to instances, which can be used to access them either privately within the VPC or publicly if the instance is exposed to the internet.
+
+# Traffic Mirroring
+
+What is Traffic Mirroring?
+PDF
+Traffic Mirroring is an Amazon VPC feature that you can use to copy network traffic from an elastic network interface of type interface. You can then send the traffic to out-of-band security and monitoring appliances for:
+
+# Network firewall
+
+You can filter network traffic at the perimeter of your VPC using AWS Network Firewall.
